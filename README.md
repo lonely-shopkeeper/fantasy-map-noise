@@ -7,11 +7,11 @@ Node.js usage
 -------------
 
 ```
-npm install fantasy-map-generator
+npm install fantasy-map-noise
 ```
 or
 ```
-yarn add fantasy-map-generator
+yarn add fantasy-map-noise
 ```
 
 ```js
