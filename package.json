@@ -1,0 +1,35 @@
+{
+  "name": "fantasy-map-noise",
+  "version": "0.0.1",
+  "description": "minimal noise (perlin, simplex) generator",
+  "main": "dist/main.js",
+  "author": "Leonardo Florez",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lonely-shopkeeper/fantasy-map-noise.git"
+  },
+  "keywords": [
+    "noise"
+  ],
+  "scripts": {
+    "dev": "webpack",
+    "prod": "webpack --define process.env.NODE_ENV=\"'production'\"",
+    "lint": "node_modules/eslint/bin/eslint.js --ext .js ./src"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony",
+    "uglifyjs-webpack-plugin": "^0.2.1",
+    "webpack": "^2.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
