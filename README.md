@@ -22,4 +22,5 @@ noise.perlin2(x, y);
 
 Version notes
 -------------
+* Version 0.0.2 fix install instructions
 * Version 0.0.1 initial release

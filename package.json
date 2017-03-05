@@ -1,6 +1,6 @@
 {
   "name": "fantasy-map-noise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "minimal noise (perlin, simplex) generator",
   "main": "dist/main.js",
   "author": "Leonardo Florez",
